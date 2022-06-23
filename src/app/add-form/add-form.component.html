@@ -1,0 +1,21 @@
+<form>
+  <div>
+    <label for="text">Task</label>
+    <input type="text" name="text" id="text" placeholder="add task" [(ngModel)]="text" />
+  </div>
+  <div>
+    <label for="dateTime">Day & Time</label>
+    <input
+      type="text"
+      name="dateTime"
+      id="dateTime"
+      placeholder="add date time"
+    />
+  </div>
+  <div>
+    <label for="reminder">Set Reminder</label>
+    <input type="checkbox" name="reminder" id="reminder" />
+  </div>
+
+  {{text}}
+</form>
