@@ -1,1 +1,5 @@
-<p>tasks works!</p>
+<app-add-form (onAddTask)="onAddTask($event)"></app-add-form>
+<ng-container *ngFor="let task of tasks">
+    <app-task [task]="task"></app-task>
+</ng-container>
+
