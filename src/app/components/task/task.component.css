@@ -4,10 +4,17 @@
   display: flex;
   gap: 25px;
   cursor: pointer;
+  position: relative;
 }
 .reminder {
   display: inline;
   width: 12px;
   height: auto;
   background-color: green;
+}
+.deleteIcon {
+  font-size: 25px;
+  color: blue;
+  position: absolute;
+  right: 15px;
 }

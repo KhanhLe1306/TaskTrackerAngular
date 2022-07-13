@@ -3,6 +3,6 @@
   <div>
     <div>{{ task.text }}</div>
     <div>{{ task.dateTime }}</div>
-    <fa-icon [ngStyle]="{'color': 'red'}" [icon]="faTimes"></fa-icon>
   </div>
+  <fa-icon class="deleteIcon" (click)="onDelete(task)" [ngStyle]="{'color': 'red'}" [icon]="faTimes"></fa-icon>
 </div>
